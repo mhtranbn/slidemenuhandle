@@ -134,6 +134,7 @@
         <!--Menu Table View-->
         <scene sceneID="brl-Bs-dpO">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xx5-xz-1ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController restorationIdentifier="menu" id="wj6-d8-PyX" customClass="MenuTableView" customModule="SlideMenuSwiftHandle" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hc2-59-kiC">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="527"/>
@@ -163,13 +164,13 @@
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xx5-xz-1ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1247" y="1176.5"/>
         </scene>
         <!--Master View-->
         <scene sceneID="hgP-J1-c7W">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLg-kz-3Su" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController restorationIdentifier="master" id="Cm0-Kn-SUQ" customClass="MasterView" customModule="SlideMenuSwiftHandle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QUm-V8-iso"/>
@@ -194,7 +195,6 @@
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iLg-kz-3Su" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="665" y="1176.5"/>
         </scene>

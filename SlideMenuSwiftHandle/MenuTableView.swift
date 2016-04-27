@@ -2,7 +2,7 @@
 //  MenuTableView.swift
 //  SlideMenuSwiftHandle
 //
-//  Created by mhtran on 4/27/16.
+//  Created by mhtran on 4/28/16.
 //  Copyright © 2016 mhtran. All rights reserved.
 //
 
@@ -29,24 +29,23 @@ class MenuTableView: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return 0
     }
 
-    
+    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = "sdc"
 
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
