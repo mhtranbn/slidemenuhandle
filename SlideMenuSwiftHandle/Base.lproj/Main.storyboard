@@ -46,7 +46,7 @@
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnI-Vw-FKH" userLabel="NavView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="73"/>
+                                <rect key="frame" x="-20" y="0.0" width="600" height="73"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgg-Yo-FOi">
                                         <rect key="frame" x="503" y="22" width="89" height="30"/>
@@ -81,13 +81,11 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5Cq-1l-XNa" secondAttribute="bottom" id="A0a-kj-Ien"/>
-                            <constraint firstAttribute="trailing" secondItem="mnI-Vw-FKH" secondAttribute="trailing" id="Bp2-mS-QsT"/>
+                            <constraint firstAttribute="trailing" secondItem="mnI-Vw-FKH" secondAttribute="trailing" constant="20" id="Bp2-mS-QsT"/>
                             <constraint firstItem="mnI-Vw-FKH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="KN4-z9-QVk"/>
-                            <constraint firstItem="5Cq-1l-XNa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Kig-bC-rfq"/>
                             <constraint firstAttribute="trailing" secondItem="5Cq-1l-XNa" secondAttribute="trailing" id="NSe-au-n26"/>
                             <constraint firstAttribute="trailing" secondItem="hDB-Lp-ANn" secondAttribute="trailing" id="PnB-np-5Hk"/>
                             <constraint firstItem="hDB-Lp-ANn" firstAttribute="width" secondItem="mnI-Vw-FKH" secondAttribute="width" id="RiJ-7s-n4k"/>
-                            <constraint firstItem="hDB-Lp-ANn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="UZK-KR-sqX"/>
                             <constraint firstAttribute="trailing" secondItem="XpG-rF-uWa" secondAttribute="trailing" id="WIS-J5-cCD"/>
                             <constraint firstItem="mnI-Vw-FKH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YjV-mo-9Zc"/>
                             <constraint firstItem="5Cq-1l-XNa" firstAttribute="width" secondItem="XpG-rF-uWa" secondAttribute="width" id="ZmD-Ug-vE5"/>
@@ -97,12 +95,6 @@
                             <constraint firstItem="5Cq-1l-XNa" firstAttribute="top" secondItem="XpG-rF-uWa" secondAttribute="bottom" id="sdy-xl-OIr"/>
                             <constraint firstItem="hDB-Lp-ANn" firstAttribute="top" secondItem="mnI-Vw-FKH" secondAttribute="bottom" id="td2-X3-vHz"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="UZK-KR-sqX"/>
-                                <exclude reference="Kig-bC-rfq"/>
-                            </mask>
-                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="PO6-Bf-6ks" appends="YES" id="9uh-yO-SmZ"/>
                             <outletCollection property="gestureRecognizers" destination="MQH-Uq-hZh" appends="YES" id="Kwh-F7-x55"/>
@@ -134,7 +126,6 @@
         <!--Menu Table View-->
         <scene sceneID="brl-Bs-dpO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xx5-xz-1ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController restorationIdentifier="menu" id="wj6-d8-PyX" customClass="MenuTableView" customModule="SlideMenuSwiftHandle" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hc2-59-kiC">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="527"/>
@@ -164,13 +155,13 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xx5-xz-1ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1247" y="1176.5"/>
         </scene>
         <!--Master View-->
         <scene sceneID="hgP-J1-c7W">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iLg-kz-3Su" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController restorationIdentifier="master" id="Cm0-Kn-SUQ" customClass="MasterView" customModule="SlideMenuSwiftHandle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QUm-V8-iso"/>
@@ -195,6 +186,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLg-kz-3Su" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="665" y="1176.5"/>
         </scene>
