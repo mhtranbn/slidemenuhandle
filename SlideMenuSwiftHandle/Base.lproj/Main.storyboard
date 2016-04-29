@@ -46,7 +46,7 @@
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnI-Vw-FKH" userLabel="NavView">
-                                <rect key="frame" x="-20" y="0.0" width="600" height="73"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="73"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgg-Yo-FOi">
                                         <rect key="frame" x="503" y="22" width="89" height="30"/>
@@ -81,7 +81,7 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5Cq-1l-XNa" secondAttribute="bottom" id="A0a-kj-Ien"/>
-                            <constraint firstAttribute="trailing" secondItem="mnI-Vw-FKH" secondAttribute="trailing" constant="20" id="Bp2-mS-QsT"/>
+                            <constraint firstAttribute="trailing" secondItem="mnI-Vw-FKH" secondAttribute="trailing" id="Bp2-mS-QsT"/>
                             <constraint firstItem="mnI-Vw-FKH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="KN4-z9-QVk"/>
                             <constraint firstAttribute="trailing" secondItem="5Cq-1l-XNa" secondAttribute="trailing" id="NSe-au-n26"/>
                             <constraint firstAttribute="trailing" secondItem="hDB-Lp-ANn" secondAttribute="trailing" id="PnB-np-5Hk"/>
@@ -157,7 +157,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xx5-xz-1ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1247" y="1176.5"/>
+            <point key="canvasLocation" x="1527" y="1204.5"/>
         </scene>
         <!--Master View-->
         <scene sceneID="hgP-J1-c7W">
@@ -188,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLg-kz-3Su" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="665" y="1176.5"/>
+            <point key="canvasLocation" x="765" y="1204.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wXe-vx-beJ">
